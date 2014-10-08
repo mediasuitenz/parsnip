@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem",
+    "jshint": "jshint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4",
+    "testem": "^0.6.18"
+  },
+  "dependencies": {
+    "JSONStream": "^0.9.0",
+    "envoodoo": "^2.0.1",
+    "express": "^4.9.5",
+    "geojson-stream": "0.0.0",
+    "hyperquest": "^0.3.0"
+  }
+}
