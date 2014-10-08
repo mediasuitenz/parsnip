@@ -8,11 +8,11 @@ NZ in geojson format.
 
 ## Usage
 
-`http://parsnip.msapp.co.nz/{lng}/{lat}`
+`http://{url}/{lng}/{lat}`
 
 example:
 ```
-curl http://parsnip.msapp.co.nz/172.41119384765625/-43.55651037504759
+curl http://myparsnipapp.com/172.41119384765625/-43.55651037504759
 ```
 
 ## Installation
@@ -24,9 +24,9 @@ curl http://parsnip.msapp.co.nz/172.41119384765625/-43.55651037504759
 - cp .env-example -> .env and edit values as necessary
 - npm start
 
-### Setup on dokku-alt
+### Setup on heroku
 
 - clone repo
-- git remote add dokku dokku@msapp.co.nz:parsnip
-- git push dokku master
-- ssh dokku@msapp.co.nz config:set parsnip LINZ_API_KEY='[some key from linz]'
+- git remote add heroku [heroku app git url]
+- git push heroku master
+- heroku config:set LINZ_API_KEY='[some key from linz]'
