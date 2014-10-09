@@ -14,8 +14,7 @@ var urlTemplate = 'https://data.linz.govt.nz/services/query/v1/vector.json/' +
 var key         = process.env.LINZ_API_KEY;
 
 app.get('/:x/:y', function (req, res) {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:3000')
-  res.header('Access-Control-Allow-Credentials', 'true')
+  res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Methods', 'GET')
 
   var url = urlTemplate
