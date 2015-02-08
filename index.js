@@ -1,6 +1,5 @@
 'use strict';
 
-
 require('envoodoo')()
 
 var hyperquest    = require('hyperquest')
